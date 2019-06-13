@@ -1,0 +1,25 @@
+h1 {
+    color: grey;
+}
+
+img {
+    width: 250px;
+}
+
+a {
+    color: blue !important;
+    text-decoration: none !important;
+}
+
+.container-body {
+    width: 920px;
+}
+
+input {
+    width: 400px !important;
+}
+
+.footer {
+    position: relative;
+    top: 360px;
+}
