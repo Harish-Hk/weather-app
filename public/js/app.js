@@ -8,7 +8,7 @@ const msg2 = document.getElementById('msg2')
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = search.value
-    var url = 'http://localhost:3000/weather?address=' + location
+    var url = '/weather?address=' + location
 
     fetch(url).then((response) => {
         response.json().then((data) => {
